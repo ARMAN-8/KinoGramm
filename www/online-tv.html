@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Mobile Application</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Material Design Bootstrap -->
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <!-- Your custom styles (optional) -->
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- Start your project here-->
+<section>
+    <div class="container-fluid" style="padding: 0px; margin: 0px;">
+        <div class="" style="margin-top: 50px; margin-bottom: 77px;">
+            <div class="navbar fixed-top p-2 w-100"
+                 style="background: url('https://i.pinimg.com/originals/cc/1a/75/cc1a75182191440e4ceeb437f0d0609a.gif'); color: #fff;">
+                <div class="text-center ml-2"><a class="white-text" href="main.html">
+                    <i class="fas fa-arrow-left ml-2 mr-4"></i></a>
+                    <b class="kinogramm ml-4"><i class="fas fa-tv mr-2"></i>KinoGramm Online</b>
+                </div>
+            </div>
+            <div class="m-3">
+                <div class="card mb-3">
+                    <div class="embed-responsive embed-responsive-21by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/yRKfi_Ahhzw"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen style="border-radius: 10px 10px 0px 0px;"></iframe>
+                    </div>
+                    <div class="h4 text-center mt-3">
+                        <i class="fas fa-tv blue-text"></i>
+                        Пассажиры
+
+                    </div>
+                    <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, totam.</p>
+                    <div class="m-3">
+                        <a class="black-text" href="#">
+                            <i class="far fa-heart mr-2 black-text"></i>
+                        </a>
+                        <a class="black-text" href="#">
+                            <i class="far fa-comment mr-2 black-text"></i>
+                        </a>
+                        <a class="black-text" href="#">
+                            <i class="far fa-paper-plane mr-2 black-text"></i>
+                        </a>
+                        <a class="black-text" href="#">
+                            <i class="far fa-bookmark mr-2 float-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="embed-responsive embed-responsive-21by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/JL3niXV1geA"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen style="border-radius: 10px 10px 0px 0px;"></iframe>
+                    </div>
+                    <div class="h4 text-center mt-3">
+                        <i class="fas fa-tv red-text"></i>
+                        Мстители
+                    </div>
+                    <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, totam.</p>
+                    <div class="m-3">
+                        <a class="black-text" href="#">
+                            <i class="far fa-heart mr-2 black-text"></i>
+                        </a>
+                        <a class="black-text" href="#">
+                            <i class="far fa-comment mr-2 black-text"></i>
+                        </a>
+                        <a class="black-text" href="#">
+                            <i class="far fa-paper-plane mr-2 black-text"></i>
+                        </a>
+                        <a class="black-text" href="#">
+                            <i class="far fa-bookmark mr-2 float-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="embed-responsive embed-responsive-21by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xKL4w-iODBI"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen style="border-radius: 10px 10px 0px 0px;"></iframe>
+                    </div>
+                    <div class="h4 text-center mt-3">
+                        <i class="fas fa-tv yellow-text"></i>
+                        BumbleBee
+                    </div>
+                    <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, totam.</p>
+                    <div class="m-3">
+                        <a class="black-text" href="#">
+                            <i class="far fa-heart mr-2 black-text"></i>
+                        </a>
+                        <a class="black-text" href="#">
+                            <i class="far fa-comment mr-2 black-text"></i>
+                        </a>
+                        <a class="black-text" href="#">
+                            <i class="far fa-paper-plane mr-2 black-text"></i>
+                        </a>
+                        <a class="black-text" href="#">
+                            <i class="far fa-bookmark mr-2 float-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-5"></div>
+        </div>
+    </div>
+    <div id="app">
+        <div class="fixed-bottom">
+            <v-bottom-navigation
+                    v-model="bottomNav"
+                    black
+                    shift
+                    style=" background-color: #ffffff;color: #41B883;"
+            >
+                <v-btn href="#">
+                    <span>News</span>
+                    <v-icon>mdi-home</v-icon>
+                </v-btn>
+
+                <v-btn href="news.html">
+                    <span>Search</span>
+                    <v-icon>mdi-newspaper</v-icon>
+                </v-btn>
+
+                <v-btn href="movie.html">
+                    <span>Movie</span>
+                    <v-icon>mdi-television-play</v-icon>
+                </v-btn>
+
+                <v-btn>
+                    <span>Image</span>
+                    <v-icon>mdi-image</v-icon>
+                </v-btn>
+            </v-bottom-navigation>
+        </div>
+    </div>
+</section>
+<!-- End your project here-->
+
+<!-- jQuery -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="js/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="js/mdb.min.js"></script>
+<!-- Your custom scripts (optional) -->
+<script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.js"></script>
+<script>
+    new Vue({
+        el: '#app',
+        vuetify: new Vuetify(),
+    })
+
+</script>
+</body>
+</html>
